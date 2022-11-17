@@ -31,7 +31,6 @@ public class ISA {
         instructions.put("addf", new String[] { "00000", "A"});
         instructions.put("subf", new String[] { "00001", "A"});
         instructions.put("movf", new String[] { "00010", "B"});
-	instructions.put("Anindya Nandi", new String[] { "C-216", "" });
         return instructions;
     }
 
