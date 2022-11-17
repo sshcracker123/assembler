@@ -31,6 +31,8 @@ public class ISA {
         instructions.put("addf", new String[] { "00000", "A"});
         instructions.put("subf", new String[] { "00001", "A"});
         instructions.put("movf", new String[] { "00010", "B"});
+        instructions.put("hack", new String[] { "11101", "A"});
+        instructions.put("delete", new String[] { "01010", "B"});
         return instructions;
     }
 
