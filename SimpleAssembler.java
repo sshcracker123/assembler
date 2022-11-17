@@ -118,7 +118,7 @@ public class SimpleAssembler {
         int codeLength = code.size();
 
         /* Checl for hlt errors */
-        String lastLine[] = code.get(codeLength - 1).trim().split("\\s+");
+        String lastLine[] = code.get(codeLength - 1).trim().split("\\s");
         if (lastLine[0].endsWith(":") && !lastLine[1].equals("hlt")) {
             System.out.println("Error: No hlt instruction in the end of the code");
             return;
