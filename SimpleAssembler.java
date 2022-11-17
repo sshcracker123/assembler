@@ -300,7 +300,7 @@ public class SimpleAssembler {
                          */
                         String reg1 = line[1];
                         if (isa.isValidReg(reg1)) {
-                            bin += isa.getInstructionCode("mov");
+                            bin += isa.getInstructionCode("move");
                             bin += "00000";
                             bin += isa.getRegCode(reg1);
                             bin += isa.getRegCode(reg2);
